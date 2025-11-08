@@ -1,4 +1,4 @@
-from espn_api.football import League
+from espn_api/football import League
 
 # For a public league
 # league = League(league_id=12345, year=2024)
