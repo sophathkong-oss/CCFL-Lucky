@@ -1,8 +1,7 @@
 import streamlit as st
 from espn_api.football import League
 from api_client import fetch_league_data
-from visualization import generate_opponent_underperformance_chart, plot_pythagorean_expectation_luck, save_luck_indices_to_file_v3, \
-create_scheduling_luck_dataframe, create_scatterplot_luck_figure
+from visualization import generate_opponent_underperformance_chart, plot_pythagorean_expectation_luck, save_luck_indices_to_file_v3, \create_scheduling_luck_dataframe, create_scatterplot_luck_figure
 from analysis import calculate_pythagorean_expectation_luck, calculate_scatterplot_luck, get_luck_index_v3
 import os
 from dotenv import load_dotenv
